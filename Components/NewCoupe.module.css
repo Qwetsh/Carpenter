@@ -1,0 +1,59 @@
+form {
+  width: 90%;
+  margin-bottom: 10px;
+  position: relative;
+
+}
+
+.newCoupeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#3a3c4a, #22232b);
+  box-shadow: -2px -1px 10px 2px rgba(255, 255, 255, 0.08),
+    2px 1px 8px 2px rgba(5, 4, 4, 0.466);
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 20px;
+  color: #ccc;
+}
+
+.formcalc {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 2px;
+}
+
+.indice {
+  margin: auto;
+  width: 15%;
+  padding: 5px;
+}
+
+.newCoupeValidate {
+  margin-top: 10px;
+  border-style: none;
+  background: linear-gradient(#3a3c4a, #22232b);
+  box-shadow: -3px -1px 5px 1px rgba(255, 255, 255, 0.08),
+    3px 1px 5px 1px rgba(5, 4, 4, 0.466);
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.close {
+  z-index: 1;
+  right: 10px;
+  top: 25px;
+  position: absolute;
+  border-radius: 7px;
+  background-color: #22232b;
+  color: #ffffff;
+  font-size: 1.2rem;
+  box-shadow: -3px -2px 5px 1px rgba(255, 255, 255, 0.08),
+    3px 2px 5px 1px rgba(5, 4, 4, 0.466);
+  padding: 1px 6px 1px 6px;
+}
